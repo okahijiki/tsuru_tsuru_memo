@@ -1,7 +1,7 @@
 {
-  "name": "secret-board",
+  "name": "つる★つるメモ",
   "version": "1.0.0",
-  "description": "秘密の匿名掲示板",
+  "description": "母親の介護・介助の備忘録",
   "main": "index.js",
   "scripts": {
     "test": "node --harmony test.js"
