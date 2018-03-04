@@ -1,0 +1,8 @@
+{
+  "name": "つる★つるメモ",
+  "description": "母親の介護・介助備忘録",
+  "repository": "https://github.com/progedu/secret-board-3033",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}
