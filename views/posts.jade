@@ -35,7 +35,7 @@ html(lang="jp")
             - var originalTrackingId = post.trackingCookie ? post.trackingCookie.split('_')[0] : ''
             span #{post.id} : ID:#{originalTrackingId}
         div(class="panel-body")
-          p(style="white-space:pre;") #{post.content}
+          p(style="white-space:pre;overflow:auto") #{post.content}
         div(class="panel-footer")
           div 投稿日時: #{post.formattedCreatedAt}
           - var isAdmin = (user === 'admin')
